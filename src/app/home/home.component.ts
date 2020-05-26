@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   currentDate: string;
 
   constructor() { }
-
+ 
   ngOnInit() {
     this.currentDate = new Date().getFullYear().toString();
   }

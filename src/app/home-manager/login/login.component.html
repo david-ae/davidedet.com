@@ -1,0 +1,45 @@
+<!-- <h1> Home Manager</h1>
+<div class="list-group">
+      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+    
+      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+    
+      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+</div>
+
+ -->
+<div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Home Manager</h5>
+            <div class="form-signin">
+                <div class="form-label-group text-center">
+                    <img class="avatar" src="./../../../assets/img/home.png"/>
+                </div>
+                <div class="form-label-group text-center" style="font-style: italic;font-weight: 500;">
+                    <p>What has finished in the store?</p>  
+                    <hr/>
+                    <p>Do you need an electrician/plumber?</p>  
+                    <hr/>
+                    <p>What are you having for dinner tonight?</p>
+                </div>
+                <br/>
+                <br/>
+                <div *ngIf="auth.user$ | async as user; else login">
+                    <pre>
+                        <!-- {{user | json}} -->
+                        <button class="btn btn-lg btn-block btn-danger" (click)="auth.signOut()">Sign Out</button>
+                    </pre>    
+                </div>
+                <ng-template #login>
+                    <button class="btn btn-lg btn-block btn-primary" (click)="auth.googleSignin()">Login with Google</button>
+                </ng-template>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
