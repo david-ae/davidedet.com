@@ -30,6 +30,12 @@ img {vertical-align: middle;}
   top: 0;
 }
 
+.tweet { 
+  padding: 10px; 
+  margin: 5px 0; 
+  /* background: url(images/transpOrange25.png); */
+}
+
 /* The dots/bullets/indicators */
 .dot {
   height: 15px;

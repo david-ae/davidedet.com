@@ -222,7 +222,8 @@ body.page-template-page-fullsingle-split {
     color: #CCCCCC; }
 
 .split-bio {
-  padding: 40px 0 40px 0;
+  /* padding: 40px 0 40px 0; */
+  padding: 0px 0 40px 0;
   font-family: 'Lora', serif; }
   @media (max-width: 1200px) {
     .split-bio {

@@ -1,0 +1,27 @@
+[debug] [2020-08-09T22:50:35.987Z] ----------------------------------------------------------------------
+[debug] [2020-08-09T22:50:35.997Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\david.edet\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-08-09T22:50:35.997Z] CLI Version:   7.6.2
+[debug] [2020-08-09T22:50:35.997Z] Platform:      win32
+[debug] [2020-08-09T22:50:35.997Z] Node Version:  v12.16.2
+[debug] [2020-08-09T22:50:36.000Z] Time:          Sun Aug 09 2020 23:50:35 GMT+0100 (West Africa Standard Time)
+[debug] [2020-08-09T22:50:36.001Z] ----------------------------------------------------------------------
+[debug] [2020-08-09T22:50:36.001Z] 
+[debug] [2020-08-09T22:50:36.026Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-09T22:50:36.028Z] > authorizing via signed-in user
+[debug] [2020-08-09T22:50:36.028Z] [iam] checking project mysite-3a248 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-08-09T22:50:36.034Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/mysite-3a248:testIamPermissions  
+
+[debug] [2020-08-09T22:50:38.566Z] <<< HTTP RESPONSE 200
+[debug] [2020-08-09T22:50:38.574Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/mysite-3a248  
+ 
+[debug] [2020-08-09T22:50:42.943Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'mysite-3a248'...
+[info] 
+[info] i  deploying hosting
+[debug] [2020-08-09T22:50:42.955Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/mysite-3a248/versions  
+
+[debug] [2020-08-09T22:50:43.377Z] Error: getaddrinfo EAI_AGAIN firebasehosting.googleapis.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+[error] 
+[error] Error: Server Error. getaddrinfo EAI_AGAIN firebasehosting.googleapis.com
