@@ -10,6 +10,9 @@ import { AboutComponent } from './about/about.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { QuoteComponent } from './quote/quote.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgxFlagPickerModule } from 'ngx-flag-picker';
+import { TestingModule } from './testing/testing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule,
     HomeManagerModule,
-    AppRoutingModule
+    NgxFlagPickerModule,
+    TestingModule,
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

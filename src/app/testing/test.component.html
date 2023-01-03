@@ -1,0 +1,8 @@
+<div id="fullsingle" class="page-template-page-fullsingle-split">
+    <ngx-flag-picker
+    [selectedCountryCode]="selectedCountryCode"
+    [countryCodes]="countryCodes"
+    (changedCountryCode)="changeSelectedCountryCode($event)">
+  </ngx-flag-picker>
+<h1>{{ selectedCountryCode }}</h1>
+</div>
