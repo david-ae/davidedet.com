@@ -1,1 +1,54 @@
-<router-outlet></router-outlet>
+<div class="container">
+  <div class="profile">
+    <header class="profile-header">
+      <img class="profile-picture" [src]="'assets/img/fbn1.png'" alt="" />
+    </header>
+    <main class="profile-content">
+      <section class="intro">
+        <p class="greeting">Hi, my name is</p>
+        <p class="name">David Edet</p>
+        <p class="description">I turn ideas to products</p>
+      </section>
+      <section class="tools-social">
+        <header class="tools-header">Technologies I use currently:</header>
+        <div class="tools">
+          <div class="frameworks">
+            <ul class="frameworks-list">
+              <li>.NETCore</li>
+              <li>Nodejs + Nestjs</li>
+              <li>Angular</li>
+            </ul>
+          </div>
+          <div class="programming-languages">
+            <ul class="programming-languages-list">
+              <li>CSharp</li>
+              <li>JavaScript</li>
+              <li>Typescript</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="contact-me">
+      <a href="https://www.instagram.com/abasiakan.david/">
+        <img
+          class="icon"
+          [src]="'assets/img/logo-linkedin.svg'"
+          alt="LinkedIn"
+        />
+      </a>
+      <a href="https://www.linkedin.com/in/davidedet" target="_blank">
+        <img
+          class="icon"
+          [src]="'assets/img/logo-instagram.svg'"
+          alt="Instagram"
+        />
+      </a>
+      <a href="https://github.com/david-ae/" target="_blank"
+        ><img class="icon" [src]="'assets/img/logo-github.svg'" alt="GitHub"
+      /></a>
+    </footer>
+  </div>
+  <div class="experience">experience</div>
+  <div class="portfolio">portfolio</div>
+</div>
