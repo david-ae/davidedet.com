@@ -90,7 +90,7 @@ html {
   height: 1.875rem;
 }
 
-.experience,
+.experiences,
 .portfolio {
   flex-shrink: 1;
   flex-grow: 1;
@@ -101,10 +101,59 @@ html {
   gap: 1rem;
 }
 
-.experience {
-  background-color: aquamarine;
+.experiences {
+  /* background-color: aquamarine; */
 }
 
 .portfolio {
   background-color: cadetblue;
+}
+
+/*
+Experience
+*/
+
+.experiences {
+  flex-basis: 400px;
+}
+
+.experiences-header {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 2rem 0 0 2rem;
+}
+
+.experience {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 2rem;
+}
+
+.companies {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-name {
+  padding: 0.5rem;
+  /* border: 1px solid black; */
+}
+
+.experience-details {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+
+.experience-header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.company {
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
 }
