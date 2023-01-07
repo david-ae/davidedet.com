@@ -1,0 +1,60 @@
+[
+  {
+    "companyLogo": "assets/svgs/LollyIcon.svg",
+    "company": "Creativ360",
+    "title": "Software Engineer",
+    "duration": "October 2022 - Present",
+    "duties": []
+  },
+  {
+    "companyLogo": "assets/svgs/LollyIcon.svg",
+    "company": "Lolly",
+    "title": "Software Engineer - Backend",
+    "duration": "November 2021 - May 2022",
+    "duties": [
+      "★ Provide data to Frontend used in designing templates and Ad designs.",
+      "★ Created services for authenticating users on the Backend following microservices architecture.",
+      "★ Perform code reviews for quality and conformance to standards on the Backend.",
+      "★ Implemented API integration for two factor authentication on Lolly platform.",
+      "★ Implemented third party API integration for payments."
+    ]
+  },
+  {
+    "companyLogo": "assets/svgs/LollyIcon.svg",
+    "company": "Lolly",
+    "title": "Software Engineer - Frontend",
+    "duration": "April 2021 - May 2022",
+    "duties": [
+      "★ Brought user story designs to life using Html, CSS and Angular.",
+      "★ Implemented creation, modification and trash feature for Ad designs.",
+      "★ Implemented toolbar feature, used for modifying Ad designs, on Lolly’s image editor.",
+      "★ Created a useful component and managed existing internal Frontend library components.",
+      "★ Perform code reviews on the Frontend in order to meet set standards and troubleshoot UI issues"
+    ]
+  },
+  {
+    "companyLogo": "assets/svgs/LollyIcon.svg",
+    "company": "Courteville Business Solutions Plc",
+    "title": "Software Engineer",
+    "duration": "June 2015 - April 2021",
+    "duties": [
+      "★ Follow standard Software Engineering practices to build company products with appropriate technology stack.",
+      "★ Implemented third party API integration into company products.",
+      "★ Follow industry best practices.",
+      "★ Attend to customer complaints, with respect to existing company products were necessary."
+    ]
+  },
+  {
+    "companyLogo": "assets/svgs/LollyIcon.svg",
+    "company": "My Campus Ride Ltd",
+    "title": "Android Developer",
+    "duration": "May 2019 - June 2020",
+    "duties": ""
+  },
+  {
+    "company": "Lolly",
+    "title": "Software Engineer",
+    "duration": "May 2019 - June 2020",
+    "duties": ""
+  }
+]
