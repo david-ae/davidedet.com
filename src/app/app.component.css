@@ -1,0 +1,14 @@
+.icon {
+  height: 1.875rem;
+}
+
+.intro {
+  padding: 5% 5% 5% 0%;
+  font-style: italic;
+  font-family: "Rubik Spray Paint";
+}
+
+.title {
+  font-family: "Rubik";
+  color: #cccccc;
+}
