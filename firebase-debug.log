@@ -1,0 +1,25 @@
+[debug] [2023-02-11T18:15:31.266Z] ----------------------------------------------------------------------
+[debug] [2023-02-11T18:15:31.275Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\david\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-11T18:15:31.277Z] CLI Version:   11.16.1
+[debug] [2023-02-11T18:15:31.278Z] Platform:      win32
+[debug] [2023-02-11T18:15:31.278Z] Node Version:  v18.14.0
+[debug] [2023-02-11T18:15:31.283Z] Time:          Sat Feb 11 2023 19:15:31 GMT+0100 (West Africa Standard Time)
+[debug] [2023-02-11T18:15:31.284Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-11T18:15:31.696Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-11T18:15:31.698Z] > authorizing via signed-in user (davidedet47@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\david\Documents\easicor\website-2023\davidedet.com
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

@@ -1,5 +1,5 @@
-.icon {
-  height: 1.875rem;
+.hide-overflow{
+  overflow: hidden;
 }
 
 .intro {
@@ -11,4 +11,8 @@
 .title {
   font-family: "Rubik";
   color: #cccccc;
+}
+
+.icon {
+  height: 1.875rem;
 }
