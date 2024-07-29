@@ -1,4 +1,4 @@
-.hide-overflow{
+.hide-overflow {
   overflow: hidden;
 }
 
@@ -8,9 +8,27 @@
   font-family: "Rubik Spray Paint";
 }
 
+.content {
+  font-style: italic;
+  font-family: "Rubik Spray Paint";
+  padding-left: 10px;
+  list-style: lower-roman;
+}
+
+ul {
+  font-style: italic;
+  font-family: "Rubik";
+  padding-left: 10px;
+  list-style: lower-roman;
+}
+
 .title {
   font-family: "Rubik";
   color: #cccccc;
+}
+
+a {
+  text-decoration: underline;
 }
 
 .icon {
